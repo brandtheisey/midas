@@ -280,10 +280,19 @@ With the application server running and nginx running, you should now be able to
 ### Windows (Windows 2008 Server)
 
 #### Prerequisites
+Certain components uses the following to make themselves.
 
--OpenSSL
--Python 2.7+ (recomend Active Python)
--Visual Studio Express 2013
+-OpenSSL [Win32](http://slproweb.com/download/Win32OpenSSL-1_0_1j.exe) or [Win64](http://slproweb.com/download/Win64OpenSSL-1_0_1j.exe)
+ - *link goes straight to exe file*
+
+-Python 2.7+ [32Bit](http://www.activestate.com/activepython/downloads/thank-you?dl=http://downloads.activestate.com/ActivePython/releases/2.7.8.10/ActivePython-2.7.8.10-win32-x86.msi) or [64Bit](http://www.activestate.com/activepython/downloads/thank-you?dl=http://downloads.activestate.com/ActivePython/releases/2.7.8.10/ActivePython-2.7.8.10-win64-x64.msi)
+ - *link goes straight to msi file* **Don't install 3.4+ it is not supported by the tool that uses Python**
+
+You can install *just* Python, but many users experience a vague non-error error similair to "There was a problem with this Windows installer package" and then the install will fail and revert any changes it had made already.
+
+-Visual Studio Express 2013 [Web Edition](http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-web)
+ - *link goes to download page*
+
 
 #### Install Visual C++ 2008 x64 or x86 Redistributable Package
 
