@@ -279,6 +279,12 @@ With the application server running and nginx running, you should now be able to
 
 ### Windows (Windows 2008 Server)
 
+#### Prerequisites
+
+-OpenSSL
+-Python 2.7+ (recomend Active Python)
+-Visual Studio Express 2013
+
 #### Install Visual C++ 2008 x64 or x86 Redistributable Package
 
 [Runtime 64](http://www.microsoft.com/en-us/download/details.aspx?id=15336)
